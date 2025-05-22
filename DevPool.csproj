@@ -67,16 +67,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CreateRecipes.aspx" />
+    <Content Include="edit.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="menu.aspx" />
+    <Content Include="menudetail.aspx" />
+    <Content Include="menuedit.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateRecipes.aspx.cs">
+      <DependentUpon>CreateRecipes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateRecipes.aspx.designer.cs">
+      <DependentUpon>CreateRecipes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edit.aspx.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit.aspx.designer.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menu.aspx.designer.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menudetail.aspx.cs">
+      <DependentUpon>menudetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menudetail.aspx.designer.cs">
+      <DependentUpon>menudetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuedit.aspx.cs">
+      <DependentUpon>menuedit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuedit.aspx.designer.cs">
+      <DependentUpon>menuedit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
